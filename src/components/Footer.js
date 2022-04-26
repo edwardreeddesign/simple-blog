@@ -4,6 +4,7 @@ import {
   FooterWrapper,
   FooterSocialWrapper,
   FooterSocialIcons,
+  P,
 } from "../elements"
 
 export const Footer = () => {
@@ -57,7 +58,9 @@ export const Footer = () => {
             <img src={data.twitter.publicURL} alt="Twitter Logo" />
           </a>
         </FooterSocialIcons>
-        <p>© 2022 Edward Reed Designs. All rights reserved.</p>
+        <P size="xSmall" color="dark3">
+          © 2022 Edward Reed Designs. All rights reserved.
+        </P>
       </FooterSocialWrapper>
     </FooterWrapper>
   )
