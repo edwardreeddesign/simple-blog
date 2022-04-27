@@ -3,6 +3,7 @@ import styled from "styled-components"
 export const ContentWrapper = styled.main`
   grid-column: 4 / span 8;
   grid-row: 3 / span 5;
+  /* background: green; */
   background-color: ${props => props.theme.colors.light2};
   padding: ${props =>
     `${props.theme.spacings.xLarge} ${props.theme.spacings.xxLarge}`};

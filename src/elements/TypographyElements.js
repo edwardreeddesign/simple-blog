@@ -9,7 +9,7 @@ export const P = styled.p`
       case "small":
         return "1rem"
       case "xSmall":
-        return "0.875"
+        return "0.875rem"
       default:
         return "1.125rem"
     }
